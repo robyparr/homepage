@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roby Parr</title>
+  <link rel="stylesheet" href="assets/styles.css?ts=202503030000" />
+</head>
+<body>
+  <header class="mb-3">
+    <h1 class="text-center">Roby Parr</h1>
+    <div class="flex justify-center space-x-1 mb-1">
+      <a href="mailto:roby@robyparr.com">Email</a>
+      <a href="https://ca.linkedin.com/in/robyparr">LinkedIn</a>
+      <a href="https://github.com/robyparr/adjourn">GitHub</a>
+    </div>
+
+    <p>
+      Hi, I'm Roby, a passionate software developer. I specialize in fullstack web development
+      but enjoy working in all areas of software.
+    </p>
+  </header>
+  <main>
+    <h2 class="mb-1">Featured Projects</h2>
+    <section class="projects grid">
+      <article>
+        <img src="assets/img/barmycodes.jpg" alt="Screenshot of Bar My Codes UI" />
+        <h3>Bar My Codes</h3>
+        <p>A Go web app to simplify the generation of barcodes.</p>
+
+        <div class="flex mt-2 space-x-1">
+          <a href="https://barmycodes.robyparr.com" class="button">Website</a>
+          <a href="https://github.com/robyparr/barmycodes" class="button">GitHub</a>
+        </div>
+      </article>
+
+      <article>
+        <img src="assets/img/adjourn.jpg" alt="Screenshot of Adjourn UI" />
+        <h3 class="space-x-1">
+          <span>Adjourn</span>
+          <small>Discontinued</small>
+        </h3>
+        <p>A Ruby on Rails app, with some Vue.js, to simplify meeting minutes.</p>
+
+        <div class="flex mt-2">
+          <a href="https://github.com/robyparr/adjourn" class="button">GitHub</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="grid">
+      <article>
+        <h2 class="mt-2 mb-1">Featured Skills</h2>
+        <ul>
+          <li>Ruby, Ruby on Rails</li>
+          <li>Go</li>
+          <li>JavaScript, Typescript, Coffeescript</li>
+          <li>Vue.js, Backbone.js</li>
+          <li>SQL, PostgreSQL</li>
+        </ul>
+      </article>
+
+      <article>
+        <h2 class="mt-2 mb-1">Other Skills</h2>
+        <ul>
+          <li>Elixir, Phoenix</li>
+          <li>Sinatra RB</li>
+          <li>React</li>
+          <li>SQLite</li>
+          <li>Docker, Kubernetes, Dokku</li>
+          <li>Linux Servers</li>
+        </ul>
+      </article>
+    </section>
+  </main>
+  <footer></footer>
+  <script>
+    document.querySelector('footer').innerHTML = '&copy; ' + new Date().getFullYear() + ' Roby Parr'
+  </script>
+</body>
+</html>
